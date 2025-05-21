@@ -17,6 +17,8 @@ services:
       - ./windows:/storage
     environment:
       RAM_SIZE: "32G"
-      CPU_CORES: 8
+      CPU_CORES: "8"
+      USERNAME: "admin"
+      PASSWORD: "q1qq1q"
     restart: always
     stop_grace_period: 2m
