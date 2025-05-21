@@ -4,6 +4,12 @@ services:
     container_name: windows
     environment:
       VERSION: "10"
+      LANGUAGE: "Russian"
+      USERNAME: "Admin"
+      PASSWORD: "q1qq1q"
+      RAM_SIZE: "32G"
+      CPU_CORES: "8"
+      DISK_SIZE: "512G"
     devices:
       - /dev/kvm
       - /dev/net/tun
