@@ -16,9 +16,7 @@ services:
     volumes:
       - ./windows:/storage
     environment:
-      RAM_SIZE: "16G"
-      DISK_SIZE: "2048G"
-      CPU_CORES: "4"
+      RAM_SIZE: "8G"
       USERNAME: "admin"
       PASSWORD: "q1qq1q"
       LANGUAGE: "Russian"
