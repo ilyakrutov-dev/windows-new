@@ -3,9 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
-      LANGUAGE: "Russian"
-      RAM_SIZE: "16G"
+      VERSION: "https://ilyakrutov.zapto.org/guest_open/workos/linux/amd64/workos.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
