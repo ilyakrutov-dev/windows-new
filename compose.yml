@@ -16,9 +16,6 @@ services:
     volumes:
       - ./windows:/storage
     environment:
-      RAM_SIZE: "8G"
-      USERNAME: "admin"
-      PASSWORD: "q1qq1q"
       LANGUAGE: "Russian"
     restart: always
     stop_grace_period: 2m
