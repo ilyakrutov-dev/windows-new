@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://ilyakrutov.zapto.org/guest_open/workos/linux/amd64/workos.iso"
+      VERSION: "2k"
     devices:
       - /dev/kvm
       - /dev/net/tun
