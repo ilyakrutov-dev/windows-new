@@ -5,7 +5,7 @@ services:
     environment:
       VERSION: "10"
       LANGUAGE: "Russian"
-      RAM_SIZE: "32G"
+      RAM_SIZE: "16G"
     devices:
       - /dev/kvm
       - /dev/net/tun
