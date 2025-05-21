@@ -15,5 +15,8 @@ services:
       - 3389:3389/udp
     volumes:
       - ./windows:/storage
+    environment:
+      RAM_SIZE: "32G"
+      CPU_CORES: 8
     restart: always
     stop_grace_period: 2m
