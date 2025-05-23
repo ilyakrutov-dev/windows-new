@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://ilyakrutov.zapto.org/guest_open/uploads/advanced/1.iso"
+      VERSION: "http://repo.vvsu.ru/GosLinux-IC3-RTM-x86_64-DVD1.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
